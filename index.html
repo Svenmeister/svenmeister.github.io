@@ -10,10 +10,11 @@
         background-size: cover;
       }
     </style>
-    <script type="text/javascript" src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
+    <script src="//cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js"
+        type="text/javascript"></script>
     <script>
-      var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
-        window.alert('yeet!')
+      cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
+        alert('Voilà!');
       });
     </script>
   </head>
